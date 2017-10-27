@@ -29,6 +29,7 @@ static NSString *const SwipeDownActionKey = @"swipe-down-action";
 
 static NSString *const MissionControlActionName = @"mission-control";
 static NSString *const ApplicationWindowsActionName = @"application-windows";
+static NSString *const LaunchpadActionName = @"launchpad";
 static NSString *const ShowDesktopActionName = @"show-desktop";
 static NSString *const NextSpaceActionName = @"next-space";
 static NSString *const PreviousSpaceActionName = @"previous-space";
@@ -72,6 +73,7 @@ static NSString *const ShowInjectNotificationKey = @"show-inject-notification";
             ShowDesktopActionName : actions.showDesktop,
             NextSpaceActionName : actions.nextSpace,
             PreviousSpaceActionName : actions.previousSpace,
+            LaunchpadActionName : actions.launchpad,
         };
     }
 

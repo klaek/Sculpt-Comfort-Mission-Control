@@ -41,6 +41,12 @@
     };
 }
 
+- (SCMCAction)launchpad {
+    return ^{
+        [NSWorkspace.sharedWorkspace launchApplication:@"LaunchPad"];
+    };
+}
+
 - (SCMCAction)showDesktop {
     return ^{
         NSString *missionControlPath = [NSWorkspace.sharedWorkspace fullPathForApplication:@"Mission Control"];
